@@ -1,0 +1,32 @@
+//andriod sim
+npx react-native run-android
+
+komveiligthuis-app/
+├── App.tsx                          # Alleen navigatie
+├── app.json                         # Config
+├── package.json
+└── src/                            # ALLE source code
+    ├── screens/                     # Alle schermen apart
+    │   ├── HomeScreen.tsx
+    │   ├── MapScreen.tsx
+    │   ├── RouteScreen.tsx
+    │   ├── SafetyScreen.tsx
+    │   ├── ProfileScreen.tsx
+    │   └── OnboardingScreen.tsx
+    ├── components/                  # Herbruikbare componenten
+    │   ├── SafetyButton.tsx        # SOS knop
+    │   ├── MapHeatmap.tsx          # Heatmap overlay
+    │   ├── ContactList.tsx         # Contacten lijst
+    │   └── RouteCard.tsx           # Route info card
+    ├── navigation/                  # Navigatie config
+    │   └── AppNavigator.tsx
+    ├── services/                   # API calls, logica
+    │   ├── locationService.ts
+    │   ├── safetyService.ts
+    │   └── apiService.ts
+    ├── constants/                  # Kleuren, styling
+    │   ├── Colors.ts
+    │   ├── Layout.ts
+    │   └── Config.ts
+    └── types/                      # TypeScript types
+        └── index.ts
