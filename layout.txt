@@ -12,11 +12,13 @@ komveiligthuis-app/
     │   ├── RouteScreen.tsx
     │   ├── SafetyScreen.tsx
     │   ├── ProfileScreen.tsx
+    │   ├── ChatScreen.tsx
     │   └── OnboardingScreen.tsx
     ├── components/                  # Herbruikbare componenten
     │   ├── SafetyButton.tsx        # SOS knop
     │   ├── MapHeatmap.tsx          # Heatmap overlay
     │   ├── ContactList.tsx         # Contacten lijst
+    │   ├── Chatfunction.tsx        #realtime chatten
     │   └── RouteCard.tsx           # Route info card
     ├── navigation/                  # Navigatie config
     │   └── AppNavigator.tsx
